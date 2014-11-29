@@ -1,0 +1,25 @@
+function SEditor (container) {
+    this.container = container;
+    this.editarea = $('.se-edit', container).get(0);
+    $(this.editarea).attr('contenteditable', true);
+    $('.se-panel a', container).click(function() {
+        var role = $(this).data('role');
+        switch(role) {
+            case 'h1':
+            case 'h2':
+            case 'p':
+                document.execCommand('formatBlock', false, '<' + role + '>');
+                break;
+            default:
+                document.execCommand(role, false, null);
+                break;
+        }
+    });
+}
+
+SEditor.prototype.setContent = function (html) {
+    this.editarea.innerHTML = html;
+};
+SEditor.prototype.getContent = function () {
+    return this.editarea.innerHTML;
+};
