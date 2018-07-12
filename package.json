@@ -1,0 +1,26 @@
+{
+  "name": "simpleeditor",
+  "version": "1.0.0",
+  "description": "the simplest rich text editor ",
+  "main": "src/se.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FuDesign2008/SimpleEditor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FuDesign2008/SimpleEditor/issues"
+  },
+  "homepage": "https://github.com/FuDesign2008/SimpleEditor#readme",
+  "dependencies": {
+    "eslint": "^5.1.0",
+    "prettier": "^1.13.7"
+  }
+}
