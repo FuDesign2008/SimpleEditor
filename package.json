@@ -1,5 +1,5 @@
 {
-  "name": "simpleeditor",
+  "name": "simplesteditor",
   "version": "1.0.0",
   "description": "the simplest rich text editor ",
   "main": "src/se.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FuDesign2008/SimpleEditor.git"
+    "url": "git+https://github.com/FuDesign2008/SimplestEditor.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FuDesign2008/SimpleEditor/issues"
+    "url": "https://github.com/FuDesign2008/SimplestEditor/issues"
   },
-  "homepage": "https://github.com/FuDesign2008/SimpleEditor#readme",
+  "homepage": "https://github.com/FuDesign2008/SimplestEditor#readme",
   "dependencies": {
     "eslint": "^5.1.0",
     "prettier": "^1.13.7"

@@ -1,4 +1,4 @@
-# SimpleEditor
+# SimplestEditor
 
 The Simplest Rich Text Editor
 
