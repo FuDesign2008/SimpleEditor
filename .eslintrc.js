@@ -16,11 +16,10 @@ module.exports = {
     commonjs: true,
     node: true,
   },
-  extends: ['eslint:recommended'],
+  extends: ['eslint:recommended', 'plugin:prettier/recommended'],
   plugins: ['html'],
   // custom rules  @see https://eslint.org/docs/rules/
   rules: {
     indent: ['error', 2, { SwitchCase: 1 }],
-    'no-console': 0,
   },
 }
