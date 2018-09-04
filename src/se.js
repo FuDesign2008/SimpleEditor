@@ -1,4 +1,4 @@
-function SEditor(container) {
+function SimpleEditor(container) {
   let $ = window.jQuery || window.$
   this.container = container
   this.editarea = $('.se-edit', container).get(0)
@@ -18,9 +18,9 @@ function SEditor(container) {
   })
 }
 
-SEditor.prototype.setContent = function(html) {
+SimpleEditor.prototype.setContent = function(html) {
   this.editarea.innerHTML = html
 }
-SEditor.prototype.getContent = function() {
+SimpleEditor.prototype.getContent = function() {
   return this.editarea.innerHTML
 }
