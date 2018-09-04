@@ -1,7 +1,7 @@
 {
-  "name": "simplesteditor",
+  "name": "simpleeditor",
   "version": "1.0.0",
-  "description": "the simplest rich text editor ",
+  "description": "a simple rich text editor ",
   "main": "src/se.js",
   "directories": {
     "lib": "lib"
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FuDesign2008/SimplestEditor.git"
+    "url": "git+https://github.com/FuDesign2008/SimpleEditor.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FuDesign2008/SimplestEditor/issues"
+    "url": "https://github.com/FuDesign2008/SimpleEditor/issues"
   },
-  "homepage": "https://github.com/FuDesign2008/SimplestEditor#readme",
+  "homepage": "https://github.com/FuDesign2008/SimpleEditor#readme",
   "dependencies": {},
   "husky": {
     "hooks": {
